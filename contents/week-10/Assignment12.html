@@ -1,0 +1,189 @@
+	<!DOCTYPE html>
+	<html>
+
+	<head>
+	<title>My Template</title>
+
+
+	<!--
+	Name: Josephine Wooldridge
+	Class:  IT-117-400
+	Abstract: Assignment 08
+	Date: 02/24/2025
+
+
+	Assignment Description (for quick reference)
+	Using the project  completed in the weekly lectures as your guide, create the following project.   Note, we will continue to build on this project in the coming weeks.   When complete, post on your account on the ITD Server. 
+	Create a html document will collect the following form data:
+			Name
+			Address
+			City
+			State
+			Zip
+			Age
+			Gender
+	Organize your html within a table and make it look good. 
+	Use CSS to format and style your form. 
+	Create a process_player.php script that will process the html form data and display the following information: 
+			Name
+			Address
+			City
+			Zip
+	Group the player based on age and gender: 
+			Age < 18 and Male - Male Junior
+			Age < 55 and > 18 and Male - Male Professional
+			Age > 55 and Male - Male Senior
+			Age < 18 and Female - Female Junior
+			Age < 55 and > 18 and Female - Female Professional
+			Age > 55 and Female - Female Senior
+	Post your solution by 2/24 at 11:59 PM
+
+
+	-->
+
+
+	</head>
+
+	<body>
+	Name: Josephine Wooldridge <br>
+	Class:  IT-117-400 <br>
+	Abstract: Assignment 08
+
+	<hr>
+
+	<h2>Golfer Registration</h2>
+
+  	<!DOCTYPE html>
+	<html>
+
+	<head>
+	<title>My Template</title>
+
+
+	<!--
+	Name: Josephine Wooldridge
+	Class:  IT-117-400
+	Abstract: Assignment 08
+	Date: 02/24/2025
+
+
+	Assignment Description (for quick reference)
+	Using the project  completed in the weekly lectures as your guide, create the following project.   Note, we will continue to build on this project in the coming weeks.   When complete, post on your account on the ITD Server. 
+	Create a html document will collect the following form data:
+			Name
+			Address
+			City
+			State
+			Zip
+			Age
+			Gender
+	Organize your html within a table and make it look good. 
+	Use CSS to format and style your form. 
+	Create a process_player.php script that will process the html form data and display the following information: 
+			Name
+			Address
+			City
+			Zip
+	Group the player based on age and gender: 
+			Age < 18 and Male - Male Junior
+			Age < 55 and > 18 and Male - Male Professional
+			Age > 55 and Male - Male Senior
+			Age < 18 and Female - Female Junior
+			Age < 55 and > 18 and Female - Female Professional
+			Age > 55 and Female - Female Senior
+	Post your solution by 2/24 at 11:59 PM
+
+
+	-->
+
+
+	<h3>1) - Golfers PHP Form</h3>
+
+<form action="process_player.php" method="post">
+  <table border="1px solid black" style="color:blue;" bgcolor="powderblue">
+    <tr>
+      <td>First Name:</td>
+      <td><input type="text" name="FirstName" required></td>
+    </tr>
+    <tr>
+      <td>Last Name:</td>
+      <td><input type="text" name="LastName" required></td>
+    </tr>
+    <tr>
+      <td>Address:</td>
+      <td><input type="text" name="Address" required></td>
+    </tr>
+    <tr>
+      <td>City:</td>
+      <td><input type="text" name="City" required></td>
+    </tr>
+    <tr>
+      <td>State:</td>
+      <td>
+        <select name="StateID" required>
+          <option value="">-- Select State --</option>
+          <option value="1">Ohio</option>
+          <option value="2">Kentucky</option>
+          <option value="3">Indiana</option>
+          <option value="4">Wisconsin</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Zip Code:</td>
+      <td><input type="text" name="ZipCode" required></td>
+    </tr>
+    <tr>
+      <td>Phone Number:</td>
+      <td><input type="text" name="PhoneNumber" required></td>
+    </tr>
+    <tr>
+      <td>Email:</td>
+      <td><input type="email" name="Email" required></td>
+    </tr>
+    <tr>
+      <td>Shirt Size:</td>
+      <td>
+        <select name="ShirtSizeID" required>
+          <option value="">-- Select Size --</option>
+          <option value="1">Small</option>
+          <option value="2">Medium</option>
+          <option value="3">Large</option>
+          <option value="4">XL</option>
+          <option value="5">XXL</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Gender:</td>
+      <td>
+        <select name="GenderID" required>
+          <option value="">-- Select Gender --</option>
+          <option value="1">Male</option>
+          <option value="2">Female</option>
+          <option value="3">Other</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td align="right" colspan="2">* All Fields Required.</td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2">
+        <button>Submit</button>
+      </td>
+    </tr>
+  </table>
+</form>
+
+
+
+
+
+
+		
+	 <p><a href="/WAPP1-WooldridgeJ/index.htm">Back to Homework  (for your grading convenience) </a></p>
+
+	</body>
+	</html>
+

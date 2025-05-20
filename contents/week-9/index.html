@@ -1,0 +1,79 @@
+	<!DOCTYPE html>
+	<html>
+
+	<head>
+	<title>My Template</title>
+
+
+	<!--
+	Name: Josephine Wooldridge
+	Class:  IT-117-400
+	Abstract: Project 1
+	Date: 03/23/2025
+	-->
+
+
+	</head>
+
+	<body>
+	Name: Josephine Wooldridge <br>
+	Class:  IT-117-400 <br>
+	Abstract: Project 1
+
+	<hr>	
+	
+	<h3>Census Data Collection Form</h3>
+    
+    <form action="census_process.php" method="post">
+    <table border="1px solid black" > 
+            <tr>
+                <td>Date of Survey: *</td>
+                <td><input type="date" name="dtmSurveyDate" required></td>
+            </tr>
+            <tr>
+                <td>County and State: *</td>
+                <td>
+                    <select name="txtCountyState" required>
+                        <option value="Hamilton, Oh">Hamilton, OH</option>
+                        <option value="Butler, Oh">Butler, OH</option>
+                        <option value="Boone, Ky">Boone, KY</option>
+                        <option value="Kenton, Ky">Kenton, KY</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Number in Household: *</td>
+                <td><input type="number" name="txtHouseholdSize" min="1" required></td>
+            </tr>
+            <tr>
+                <td>Household Yearly Income: *</td>
+                <td><input type="number" name="txtYearlyIncome" min="1" required></td>       
+			<tr>
+                <td align="right" colspan="2">* Required Field</td>
+            </tr>
+			<tr>
+				<hr>
+			</tr>
+            <tr>
+                <td align="center" colspan="2">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>	
+			
+        </table>
+    </form>
+	
+	<br>
+	<a href="/WAPP1-WooldridgeJ/contents/week-9/total_survey.php"><button>Total Households Surveyed</button></a>
+	<br><br>
+	<a href="/WAPP1-WooldridgeJ/contents/week-9/average_household.php"><button>Average Household Income</button></a>
+	<br><br>
+	<a href="/WAPP1-WooldridgeJ/contents/week-9/below_poverty.php"><button>Percentage Below Poverty</button></a>
+					
+	<hr> 	
+	<p><a href="/WAPP1-WooldridgeJ/index.htm">Back to Homework  (for your grading convenience) </a></p>
+
+	</body>
+	</html>
+

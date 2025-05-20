@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>My Template</title>
+
+
+<!--
+Name: Josephine Wooldridge
+Class:  IT-117-400
+Abstract: Assignment 05
+Date: 01/30/25
+
+
+
+yippee i did it :)-->
+
+
+</head>
+
+<body>
+Name: Josephine Wooldridge <br>
+Class:  IT-117-400 <br>
+Abstract: Assignment 05
+
+<hr>
+
+<h2>1) - Border, height, width, bgcolor, align and valign attributes</h2>
+    <p>Table is 150px by 150px.</p>
+    <table  width="150" height="150" border="1px solid black" >
+        <tr>
+            <td bgcolor="black"  align="left" valign="top">1</td>
+            <td bgcolor="red" align="center" valign="top">2</td>
+            <td bgcolor="orange"  align="right" valign="top">3</td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow" align="left" valign="center">4</td>
+            <td bgcolor="green" align="center">5</td>
+            <td bgcolor="blue" align="right" valign="center">6</td>
+        </tr>
+        <tr>
+            <td bgcolor="purple" align="left" valign="bottom">7</td>
+            <td bgcolor="pink" align="center" valign="bottom">8</td>
+            <td bgcolor="white" align="right" valign="bottom">9</td>
+        </tr>
+    </table>
+
+    <h2>2) - Colspan and percentage width (e.g. 50%)</h2>
+    <p>Table is 150px by 150px. Use percentages to specify cell width.</p>
+    <table  width="150" height="150" border="1px solid black">
+        <tr>
+            <td colspan="3" width="100%">1</td>
+        </tr>
+        <tr>
+            <td colspan="2" width="66%">2</td>
+            <td colspan="1"width="33%">3</td>
+        </tr>
+        <tr>
+            <td colspan="1" width="33%">4</td>
+            <td colspan="2" width="66%">5</td>
+        </tr>
+    </table>
+
+    <h2>3) - Rowspan</h2>
+    <table  width="150" height="150" border="1px solid black">
+        <tr>
+            <td>1</td>
+            <td rowspan="2">4</td>
+            <td rowspan="3">6</td>
+        </tr>
+        <tr>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>5</td>
+        </tr>
+    </table>
+
+    <h2>4) - Colspan & Rowspan</h2>
+    <table width="150" height="150" border="1px solid black">
+        <tr>
+            <td align="center" colspan="2">1</td>
+            <td align="center" rowspan="2">2</td>
+        </tr>
+        <tr>
+            <td align="center" rowspan="2">4</td>
+            <td align="center" >5</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">3</td>
+        </tr>
+    </table>
+
+    <h2>5) - Nested Table</h2>
+    <ul>
+        <li>Parent Table is 350 wide</li>
+        <li>Each row in both table is 75 pixels tall</li>
+        <li>Parent table has a yellow background</li>
+        <li>Nested table has a beige background</li>
+    </ul>
+    <table width="350" bgcolor="yellow" border="1px solid black">
+        <tr height="75">
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr height="75">
+            <td colspan="3">
+                <table width="100%" bgcolor="beige" border="1px solid black">
+                    <tr height="75">
+                        <td width="50%" align="center">A <br> nested <br> table</td>
+                        <td width="50%" valign="top">With this text at the top</td>
+                    </tr>
+                    <tr height="75">
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr height="75">
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+	
+	
+	<p><a href="/WAPP1-WooldridgeJ/index.htm">Back to Homework  (for your grading convenience) </a></p>
+
+</body>
+</html>
