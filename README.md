@@ -18,7 +18,7 @@ This repository contains a backup of my testing site for *Web App Development I*
 > - Create the required database and tables (schema not included unless otherwise documented)
 > - Update any database connection credentials in the PHP files (`localhost`, `username`, `password`, `database_name`)
 >
-> - Additionally, not all assignments are promised to work 100%. This backup is primarily meant to serve as reference for me, and evidence of my progress as a developer. 
+> **Additionally, not all assignments are promised to work 100%. This backup is primarily meant to serve as reference for me, and evidence of my progress as a developer. **
 
 
 ## 🔐 Security Note
