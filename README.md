@@ -12,7 +12,9 @@ This repository contains a backup of my testing site for *Web App Development I*
 ## ⚠️ Notice
 
 > **Database functionality may be limited or non-functional in this backup.**  
-> This project originally relied on a MySQL database managed by my school’s IT infrastructure. If you'd like to restore full functionality, you’ll need to:
+> This project originally relied on a MySQL database managed by my school’s IT infrastructure. Remaining code referring to this database may be nonworking or incomplete. As a matter of fact, a majority of it has been purposefully removed to maintain security.
+>
+> If you'd like to restore full functionality, you’ll need to:
 >
 > - Set up a local or remote MySQL server
 > - Create the required database and tables (schema not included unless otherwise documented)
