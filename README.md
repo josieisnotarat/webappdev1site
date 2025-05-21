@@ -1,6 +1,6 @@
-# Web App Development I - Final Project Backup
+# Web App Development I Project Backups
 
-This repository contains a backup of my final project for *Web App Development I*. The application is built using **HTML5**, **CSS3**, and **PHP**, and was originally designed to interact with a **MySQL** database hosted on a school-run server.
+This repository contains a backup of my testing site for *Web App Development I*. The application is built using **HTML5**, **CSS3**, and **PHP**, and was originally designed to interact with a **MySQL** database hosted on a school-run server.
 
 ## 🛠 Technologies Used
 
@@ -17,6 +17,8 @@ This repository contains a backup of my final project for *Web App Development I
 > - Set up a local or remote MySQL server
 > - Create the required database and tables (schema not included unless otherwise documented)
 > - Update any database connection credentials in the PHP files (`localhost`, `username`, `password`, `database_name`)
+>
+> - Additionally, not all assignments are promised to work 100%. This backup is primarily meant to serve as reference for me, and evidence of my progress as a developer. 
 
 
 ## 🔐 Security Note
@@ -28,4 +30,4 @@ This project was developed as a class assignment and may not follow production-l
 Developed by **Josie** as part of the *Web App Development I* course.
 
 ---
-🗃️ Last updated: `May 2025`
+🗃️ Completed: `April 2025`
